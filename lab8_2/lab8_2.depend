@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1571906547 source:d:\szilard\xib\lab8_2\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+

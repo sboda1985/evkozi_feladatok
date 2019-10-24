@@ -1,0 +1,6 @@
+kés	6
+milyen	3
+hogy	3
+kocsmáros	2
+kagyló	2
+matróz	1
