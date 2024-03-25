@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1711345312 source:d:\documente\szilard\xib\grad2_3feladar\main.cpp
+	<iostream>
+	<vector>
+	<fstream>
+
