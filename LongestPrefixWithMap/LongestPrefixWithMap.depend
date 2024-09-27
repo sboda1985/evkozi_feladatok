@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1727417668 source:d:\szilard\xiib\longestprefixwithmap\main.cpp
+	<iostream>
+	<unordered_map>
+	<fstream>
+
