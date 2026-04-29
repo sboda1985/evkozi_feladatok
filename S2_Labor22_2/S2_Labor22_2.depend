@@ -1,5 +1,9 @@
 # depslib dependency file v1.0
-1682486748 source:d:\documente\szilard\xib\s2_labor22_2\main.cpp
+1682487250 source:d:\documente\szilard\xib\s2_labor22_2\main.cpp
+	<iostream>
+	<fstream>
+
+1777436882 source:d:\szilard\xib\s2_labor22_2\main.cpp
 	<iostream>
 	<fstream>
 

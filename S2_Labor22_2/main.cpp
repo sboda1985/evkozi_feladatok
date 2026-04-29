@@ -36,16 +36,19 @@ struct node* felepit (struct node* node, int ertek)
 }
 
 bool bejar(struct node* node, int ertek){
+    if (node == NULL){
+        return false;
+    }
+
     if (node->index == ertek) {
         return true;
     }
     if (ertek < node->index){
-        return (node->bal, ertek);
+        return bejar(node->bal, ertek);
     }
     if (ertek > node->index) {
-        return (node->jobb, ertek);
+        return bejar(node->jobb, ertek);
     }
-    return false;
 }
 
 int main()
@@ -62,16 +65,16 @@ int main()
         felepit(elso, x);
 
     }
-    for(int i=0; i<100; i++)
+    for(int i=0; i<10000; i++)
     {
 
         if (bejar(elso, i))
         {
-            cout << i << " - igen" << endl;
+           cout << i << " - igen " << endl;
         }
         else
         {
-            cout << i << " - nem" << endl;
+            cout << i << " - nem " << endl;
         }
     }
 
